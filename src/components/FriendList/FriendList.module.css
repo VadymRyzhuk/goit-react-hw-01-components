@@ -1,41 +1,11 @@
 .mainList {
-margin: 0 auto;
-width: 200px;
+    margin: 0 auto;
+    width: 200px;
 }
 
 .friendList {
     padding-left: 0px;
-/* padding-top: 20px;
-padding-bottom: 20px; */
-display: flex;
-flex-direction: column;
-gap: 10px; 
-}
-
-.item {
-display: flex;
-gap: 10px;
-align-items: center;
-border: 1px solid rgb(246, 219, 219);
-padding: 10px;
-background-color:  rgb(200, 247, 247);
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-
-
-.statusOffline {
-border-radius: 50px;
-    border: 1px solid red;
-    width: 15px;
-    height: 15px;
-    background-color: red;
-}
-
-.statusOnline {
-    border-radius: 50px;
-    border: 1px solid green;
-    width: 15px;
-    height: 15px;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
